@@ -1,5 +1,5 @@
 import mongoose, { Schema } from 'mongoose';
-
+import mongooseAggregatePaginate from 'mongoose-aggregate-paginate-v2';
 const videoSchema = new Schema(
     {
         //mongo DB allows you to store small images file video you can store as media file.., but that's not a good practice
